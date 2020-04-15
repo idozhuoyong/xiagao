@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -5,3 +7,81 @@
 ul {
     list-style: none;
 }
+img {
+    border: none;
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #3c3c3c;
+}
+i {
+    font-style: normal;
+}
+button {
+    outline: none;
+}
+body {
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+
+/* 清除浮动 */
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+}
+/* 浮动 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+
+/* 其它常用样式 */
+.layer {
+    width: 1190px;
+    margin: 0 auto;
+}
+.cf40 {
+    color: #f40;
+}
+.cf50 {
+    color: #f50;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+
+
+/* 引入 iconfont 图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../image/iconfont/iconfont.eot');
+    src: url('../image/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../image/iconfont/iconfont.woff2') format('woff2'),
+        url('../image/iconfont/iconfont.woff') format('woff'),
+        url('../image/iconfont/iconfont.ttf') format('truetype'),
+        url('../image/iconfont/iconfont.svg#iconfont') format('svg');
+}
+/* 
+iconfont 的使用：
+第二步：定义使用 iconfont 的样式
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+第三步：挑选相应图标并获取字体编码，应用于页面
+<span class="iconfont">&#x33;</span> 
+*/
