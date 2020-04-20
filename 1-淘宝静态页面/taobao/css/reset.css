@@ -65,12 +65,12 @@ body {
 /* 引入 iconfont 图标 */
 @font-face {
     font-family: 'iconfont';
-    src: url('../image/iconfont/iconfont.eot');
-    src: url('../image/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
-        url('../image/iconfont/iconfont.woff2') format('woff2'),
-        url('../image/iconfont/iconfont.woff') format('woff'),
-        url('../image/iconfont/iconfont.ttf') format('truetype'),
-        url('../image/iconfont/iconfont.svg#iconfont') format('svg');
+    src: url('../font/iconfont/iconfont.eot');
+    src: url('../font/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont/iconfont.woff2') format('woff2'),
+        url('../font/iconfont/iconfont.woff') format('woff'),
+        url('../font/iconfont/iconfont.ttf') format('truetype'),
+        url('../font/iconfont/iconfont.svg#iconfont') format('svg');
 }
 /* 
 iconfont 的使用：
