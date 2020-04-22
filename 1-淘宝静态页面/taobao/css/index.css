@@ -7,3 +7,38 @@
         @font-face  自定义字体
 */
 @import "reset.css";
+
+/* 引入 iconfont 图标 */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont/iconfont.eot');
+    src: url('../font/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font/iconfont/iconfont.woff2') format('woff2'),
+        url('../font/iconfont/iconfont.woff') format('woff'),
+        url('../font/iconfont/iconfont.ttf') format('truetype'),
+        url('../font/iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* 头部信息 */
+#headMessage li {
+    float: left;
+    line-height: 35px;
+    padding: 0 6px;
+}
+#headMessage a {
+    color: #6c6c6c;;
+}
+#headMessage a:hover {
+    color: #F40;
+}
+#headMessage span {
+    font-size: 12px;
+    color: #6c6c6c;
+}
