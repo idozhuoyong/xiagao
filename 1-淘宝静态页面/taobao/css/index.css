@@ -30,15 +30,41 @@
 #headMessage li {
     float: left;
     line-height: 35px;
-    padding: 0 6px;
+    padding: 0 8px;
+    font-size: 0;
 }
-#headMessage a {
-    color: #6c6c6c;;
-}
-#headMessage a:hover {
-    color: #F40;
-}
+
 #headMessage span {
     font-size: 12px;
     color: #6c6c6c;
+}
+#headMessage .login span {
+    color: #F40;
+    padding-right: 8px;
+}
+#headMessage a:hover span {
+    color: #F40;
+}
+
+#headMessage .iconfont.arrow {
+    padding-left: 6px;
+}
+#headMessage .iconfont.shoppingcart {
+    padding-right: 4px;
+    color: #F40;
+}
+#headMessage .shoppingnum {
+    font-size: 12px;
+    color: #F40;
+}
+#headMessage .iconfont.favorites {
+    color: #9c9c9c;;
+}
+#headMessage .line {
+    color: #dcdcdc;
+    font-weight: 100;
+}
+#headMessage .iconfont.menu {
+    color: #F40;
+    padding-right: 4px;
 }
