@@ -29,11 +29,11 @@
 /* 头部信息 */
 #headMessage li {
     float: left;
-    line-height: 35px;
+    height: 36px;
+    line-height: 36px;
     padding: 0 8px;
     font-size: 0;
 }
-
 #headMessage span {
     font-size: 12px;
     color: #6c6c6c;
@@ -68,3 +68,13 @@
     color: #F40;
     padding-right: 4px;
 }
+
+#headAd {
+    background-color: #f40d4d;
+    height: 70px;
+}
+#headAd img {
+    width: 1190px;
+    height: 70px;
+}
+
