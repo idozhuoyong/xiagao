@@ -269,4 +269,72 @@
     font-size: 14px;
     font-weight: 400;
     color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+/* 首屏内容 */
+/* 左侧内容 */
+#firstScreen .main {
+    width: 900px;
+}
+/* 左侧导航 */
+#firstScreen .nav {
+    float: left;
+    width: 190px;
+    height: 522px;
+    border: 1px solid #ff5000;
+    border-top: none;
+    box-sizing: border-box;
+    padding: 5px 0 3px;
+}
+#firstScreen .nav li {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 19px 0 15px;
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+    transition: background-color 0.3s;
+}
+#firstScreen .nav li a {
+    color: #666666;
+}
+#firstScreen .nav li span {
+    position: absolute;
+    right: 10px;
+    font-size: 12px;
+}
+
+#firstScreen .nav li:hover {
+    color: #ff5000;
+    background-color: #ffe4dc;
+}
+#firstScreen .nav li:hover a {
+    color: #ff5000;
+}
+#firstScreen .nav li a:hover {
+    text-decoration: underline;
+}
+/* 主广告区域 */
+#firstScreen .core-ad {
+    float: left;
+    width: 520px;
+    height: 512px;
+    border: 1px solid red;
+}
+/* 子广告区域 */
+#firstScreen .sub-ad {
+    float: right;
+    width: 160px;
+    height: 512px;
+    border: 1px solid blue;
+}
+
+/* 右侧内容 */
+#firstScreen .col-right {
+    width: 290px;
+    height: 522px;
+    border: 1px solid red;
+    box-sizing: border-box;
 }
